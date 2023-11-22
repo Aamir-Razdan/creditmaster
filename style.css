@@ -1,0 +1,224 @@
+body{
+    padding:0;
+    margin:0;
+   
+}
+
+.navbar,.list-item{
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar{
+    padding:10px 10px;
+    justify-content: space-evenly;
+    background-color: #012A79;
+}
+
+.buttons{
+    /* width:100px;
+    height:30px; */
+    font-size: 12px;
+    font-weight: bold;
+    border:none;
+    margin:10px;
+    border-radius:5px;
+}
+
+.activebutton{
+    background-color: #ffff;
+      width:100px;
+    height:30px;
+    
+}
+.notactivebutton{
+    background-color:yellow;
+    width:100px;
+    height:30px;
+    
+}
+
+.bluebutton{
+    background-color: #012A79;
+    color:white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.list-item{
+    color:#ffff;
+}
+.herosection{
+    
+    
+    justify-content: space-between;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  
+}
+
+.text-item{
+    padding-left:130px;
+}
+.image-item{
+    padding-right: 180px;
+    
+}
+.hero-img{
+    width: 600px;
+    height: 507px;
+}
+
+
+   
+.text-item h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25%;
+    
+}
+
+.subhead-para{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    width:80%;
+    font-weight:500;
+    line-height: normal;
+    letter-spacing: 1.6px;
+}
+
+.hero-about{
+    color: #5a5a5a;
+    font-family: Inter;
+    font-size: 15px;
+    width:75%;
+    /* font-weight: 500; */
+    
+    
+}
+
+
+/* card section */
+.bestproductsection{
+    background-color:#012A79;
+    padding-bottom:60px;
+}
+.card{
+    border:1px solid black;
+    width:200px;
+    background-color:#fff;
+    border-radius:20px;
+    margin:10px 20px;
+    
+}
+.card img{
+    width:150px;
+    height:150px;
+    padding:20px 10px;
+    display: flex;
+   margin:auto;
+}
+
+.card p{
+    width:200px;
+    text-align: center;
+    color: #012A79;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.1px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.bestproductsection h1{
+    
+    padding:80px 0px 30px ;
+    padding-left:12%;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.92px;
+}
+
+
+/* cibil score */
+
+
+.cibilscore-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding:100px 0 0;
+}
+
+
+.cibilbutton{
+    width: 307px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #012A79;
+    color:#ffff;
+    font-size:1rem;
+    margin:25px 0;
+}
+
+.cibilabout{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.cibilabout h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    margin-bottom:25px;
+    font-style: normal;
+    font-weight: 600;
+    
+    letter-spacing: 1.6px;
+}
+.cibilabout p{
+    margin:5px;
+    color: #5c5c5c;
+    font-family: Inter;
+    font-size: 17px;
+    
+    font-style: normal;
+   
+}
+
+.cibilimage img{
+    width:350px;
+    height:450px;
+    justify-content: center;
+}
+
+
+
+
+.formsection{
+   
+   background-color: aliceblue;
+   padding:50px;
+   position: relative;
+   top:-100px;
+   
+}
